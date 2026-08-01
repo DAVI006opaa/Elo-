@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import json, os
 
-OUT = "/sessions/cool-youthful-pasteur/mnt/outputs/elo_out"
+OUT = "elo_out"
 os.makedirs(OUT, exist_ok=True)
 
 rng = np.random.default_rng(42)
